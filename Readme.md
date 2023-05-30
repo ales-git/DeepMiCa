@@ -3,7 +3,7 @@
 Official Repo of the paper [DeepMiCa: automatic segmentation and classification of breast MIcroCAlcifications from mammograms](https://doi.org/10.1016/j.cmpb.2023.107483) - [Alessia Gerbasi](https://scholar.google.com/citations?user=zzZZp_UAAAAJ&hl=it) et al.
 
 Breast microcalcifications may be the very early and only first detectable sign of breast cancer.
-However they are by definition small calcium deposits with less than 1 mm in diameter, and their early detection and classification is still a very challenging task, often requiring an invasive biopsy.
+However, they are by definition small calcium deposits with less than 1 mm in diameter, and their early detection and classification is still a very challenging task, often requiring an invasive biopsy.
 
 <img src="figures/real_samples.png">
 
@@ -27,6 +27,7 @@ This is the tree structure of the folders you should have to directly use our co
 ``` 
 ├── Step1_Preprocessing
 │   └── preprocessing.py
+│
 ├── Step2_Segmentation
 │   ├── _01_SplitData
 │   │   └── split.py
@@ -89,7 +90,7 @@ This is the tree structure of the folders you should have to directly use our co
 ### Reproducing the experiments
 Our pipeline is designed to be as flexible as possible therefore, we provide a set of progressively numbered folders containing the scripts for each step. 
 According to your needs, you can choose to run all the steps or jump to the one you are interested in.
-If your input dataset is different or you did not structure the data folders as we did, you can easily change the paths in the scripts.
+If your input dataset is different, or you did not structure the data folders as we did, you can easily change the paths in the scripts.
 
 - **Step1_Preprocessing**
   - `preprocessing.py`: this step is designed to preprocess the images from both datasets before the segmentation step in order to remove artifacts and enhance the contrast.
