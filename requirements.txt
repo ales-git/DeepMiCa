@@ -1,0 +1,12 @@
+matplotlib==3.7.1
+medcam==0.1.21
+numpy==1.24.3
+opencv_python==4.7.0.72
+pandas==2.0.1
+patchify==0.2.3
+scikit_learn==1.2.2
+shap==0.41.0
+skimage==0.0
+torch==2.0.1
+torchmetrics==0.11.4
+torchvision==0.15.2
