@@ -138,8 +138,7 @@ Please refer to the paper for a full description and discussion of the results.
 
 
 ### Pre-trained models
-If you want to directly test our models, you can request the models weights [here](
-https://docs.google.com/forms/d/e/1FAIpQLSfDjNC-rLmhM9w6xygw-rPqUioUo8Y1VBAIcL23lZlCWf5x5g/viewform?usp=pp_url) and put them in the `Checkpoints` folder.
+If you want to directly test our models, you can request the models weights [here](https://docs.google.com/forms/d/e/1FAIpQLScwPZNze1eVFatfGa5MnyV2hsCQKFjlToLWsaSnxE0I36WcvA/viewform?usp=share_link) and put them in the `Checkpoints` folder.
 Then you can run the following scripts:
 - `python3 Step2_Segmentation/_04_Test/testing.py` to test the segmentation model on your test set.
 - `python3 Step3_Classification/_05_Test/testing.py` to test the classification model on your test set.
