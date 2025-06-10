@@ -1,6 +1,13 @@
 # DeepMiCA: automatic segmentation and classification of breast MIcroCAlcifications from mammograms
 
 Official Repo of the paper [DeepMiCa: automatic segmentation and classification of breast MIcroCAlcifications from mammograms](https://doi.org/10.1016/j.cmpb.2023.107483) - [Alessia Gerbasi](https://scholar.google.com/citations?user=zzZZp_UAAAAJ&hl=it) et al.
+_____________________________________________________________________________________________________________
+<span style="color: red;">NEWS! - 10.06.2025 </span>
+
+Due to the high number of submissions we have now removed the form for checkpoints requests.
+You can direclty download them from [here](https://drive.google.com/file/d/1hHZ8I76zHQPQ64RYR2gWSKNKoCWH64CZ/view?usp=share_link)
+_____________________________________________________________________________________________________________
+
 
 Breast microcalcifications may be the very early and only first detectable sign of breast cancer.
 However, they are by definition small calcium deposits with less than 1 mm in diameter, and their early detection and classification is still a very challenging task, often requiring an invasive biopsy.
@@ -138,7 +145,7 @@ Please refer to the paper for a full description and discussion of the results.
 
 
 ### Pre-trained models
-If you want to directly test our models, you can request the models weights [here](https://docs.google.com/forms/d/e/1FAIpQLScwPZNze1eVFatfGa5MnyV2hsCQKFjlToLWsaSnxE0I36WcvA/viewform?usp=share_link) and put them in the `Checkpoints` folder.
+If you want to directly test our models, you can request the models weights and put them in the `Checkpoints` folder.
 Then you can run the following scripts:
 - `python3 Step2_Segmentation/_04_Test/testing.py` to test the segmentation model on your test set.
 - `python3 Step3_Classification/_05_Test/testing.py` to test the classification model on your test set.
