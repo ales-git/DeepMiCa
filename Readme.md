@@ -132,7 +132,7 @@ If your input dataset is different, or you did not structure the data folders as
         The best weights will be saved in a folder called `Checkpoints`.
         You can visualize the learning curves with [wandb](https://wandb.ai/site) while training.
 
-###### Results
+### Results
 For a rapid visual assessment of the results we show here (1) A comparison between original CBIS-DDSM ground-truth masks and our segmentation results and (2) two examples of classification results and corresponding XAI maps.
 Please refer to the paper for a full description and discussion of the results.
 <figure>
